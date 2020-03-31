@@ -1,0 +1,19 @@
+table, td,th {
+	border: 1px solid black;
+
+}
+table{
+	width: 800px;
+	height: 400px;
+	margin: 0 auto;
+}
+th{
+	padding: 15px;
+	background-color: skyblue;
+}
+td{
+	padding: 17px;
+	text-align: center;
+	vertical-align: center;
+	background-color: yellow;
+}
