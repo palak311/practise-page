@@ -4,20 +4,25 @@
 	<title>desiging table</title>
 	<link rel="stylesheet" type="text/css" href="style1.css">
 	</link>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"></link>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
 </head>
 <body>
-	<form class="formdiv">
-		<label class="displ">
-		<input type="text" placeholder="full name">
-		</label>
-		<label class="displ">
-		<input type="text" placeholder="father's name">
-		</label>
-		<textarea class="textfield">
-		</textarea>
-		<button class="sign"><font color="black">
-		Submit
-		</font></button>
-	</form>
+	<p class="heading">
+		To do list...
+	</p>
+	<div class="formdiv">
+		<input type="text" placeholder="list item" id="input">
+		<button class="add" >
+			Add
+		</button>
+	</div>
+	<br>
+	<ul id="myUL">
+	</ul>
+	<script src="script1.js"></script>
 </body>
 </html>
